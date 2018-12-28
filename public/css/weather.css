@@ -1,0 +1,20 @@
+@import 'base.css';
+
+.wrap {width:100%; height:100%; max-width:auto; margin:auto; background:url(../img/iphone.png) no-repeat; background-size:auto 100%; position:relative;}
+.tabs {border-bottom:1px solid #999; position:absolute; top:11.2%; left:7.13%; width:86%;}
+.tabs > li {padding:0.75rem; width:50%; float:left; text-align:center;}
+.wrap > div {width:86%; top:calc(11.2% + 3rem); position:absolute; height:calc(77.4% - 3rem); left:7.13%; }
+.conts {width:100%; height:100%; overflow-y:auto; position:absolute; font-size:1rem; }
+.daily {display:block;}
+.weekly {display:none;}
+
+
+.daily > :first-child {padding:2em; text-align:center;}
+.daily #wt_icon {width:50%;}
+.daily .tit {text-align:right; display:inline-block; width:30%; padding:1em;}
+.daily .cont {text-align:left; display:inline-block; width:60%; padding:1em;}
+
+.weekly > ul {border-bottom:1px solid #999;}
+.weekly > ul > :first-child {width:28%; padding:2%; float:left;}
+.weekly > ul > li:not(:first-child) {float:right; width:72%; padding:1%;}
+.weekly span {color:rgb(30, 56, 172)}
